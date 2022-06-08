@@ -1,0 +1,25 @@
+/home/trimsky/Загрузки/clion-2021.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/trimsky/CLionProjects/archiver
+-- The C compiler identification is GNU 12.1.0
+-- The CXX compiler identification is GNU 12.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:5 (include):
+  include could not find requested file:
+
+    /home/trimsky/CLionProjects/archiver/conanbuildinfo.cmake
+
+
+CMake Error at CMakeLists.txt:6 (conan_basic_setup):
+  Unknown CMake command "conan_basic_setup".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/trimsky/CLionProjects/archiver/cmake-build-release/CMakeFiles/CMakeOutput.log".
